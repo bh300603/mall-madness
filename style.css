@@ -1,0 +1,72 @@
+body{
+    margin:0;
+  padding:0;
+}
+
+.parentdiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(160, 34, 96, 0.28);
+
+  width: 100%
+
+}
+
+.childdiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+
+  width: 100%
+    
+}
+
+.heading {
+  position: relative;
+  clear: none;
+  font-family: 'PT Sans', sans-serif;
+  color: #f0e628;
+  font-size: 6em;
+  line-height: 1em;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.text-block {
+  position: relative;
+  top: 140px;
+  left: center;
+  clear: none;
+  font-family: 'PT Sans', sans-serif;
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 2.5em;
+  line-height: .5em;
+  font-style: italic;
+  font-weight: 4;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
